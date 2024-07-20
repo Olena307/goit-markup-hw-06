@@ -7,6 +7,8 @@ background-color: #fff;
 }
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0
 }
 a {
     text-decoration: none;
@@ -37,6 +39,97 @@ a {
     font-style: normal;
 }
 .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.page-footer {
+    background-color: #2e2f42;
+}
+.footer-logo {
+    margin-bottom: 16px;
+}
+.footer-logo, .footer-part {
+    color: #f4f4fd
+}
+
+.header-logo {
+    margin-right: 76px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.team-section {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.team-item {
+
+}
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-list {
+display: flex;
+gap: 24px;
+background-color: #ffffff;
+width: ((100% - 72px)/4);
+}
+
+.typog, .sec-heder, .big-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+}
+.title-item {
+
+}
+.features-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
