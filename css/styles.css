@@ -111,6 +111,20 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.wrap {
+    display: flex;
+    margin: 0 auto;
+    outline: 1px solid #000;
+    width: 1128px;
+    height: 104px;
+}
+.block {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+}
 
 /* ======= TEAM STYLES ======= */
 
