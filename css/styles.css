@@ -118,12 +118,14 @@ a {
     width: 1128px;
     height: 104px;
 }
-.block {
+.block-benefits {
     display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         gap: 8px;
+        width: 264px;
+        height: 104px;
 }
 
 /* ======= TEAM STYLES ======= */
