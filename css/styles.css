@@ -104,6 +104,15 @@ display: flex;
 
 .page-hero {
     background-color: #2e2f42;
+    padding: 188px 0 188px;
+    display: flex;
+    gap: 24px;
+}
+
+.hero-content {
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
 }
 
 .hero-title {
@@ -113,6 +122,7 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .order-service-button {
@@ -123,6 +133,12 @@ display: flex;
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #fff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
