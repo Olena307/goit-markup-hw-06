@@ -343,8 +343,7 @@ flex-direction: column;
 
 .page-footer {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 312px;
+    padding: 100px 0;
 }
 
 .page-logo-footer {
@@ -355,6 +354,8 @@ flex-direction: column;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-part {
