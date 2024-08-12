@@ -430,3 +430,45 @@ flex-direction: column;
     display: inline-block;
     margin-bottom: 16px;
  }
+
+ /* ======= ICONES =======*/
+
+ .icon-list {
+     display: flex;
+     justify-content: center;
+     gap: 24px;
+     flex-shrink: 0;
+     align-self: flex-end;
+     list-style: none;
+     margin-top: 8px;
+     padding: 0 16px;
+     flex-direction: row;
+     align-items: center;
+ }
+
+ .icon-item {
+     width: 40px;
+     height: 40px;
+ }
+
+ .icon-link {
+     width: 40px;
+     height: 40px;
+     background-color: #4d5ae5;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition-property: background-color;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .icon-link:hover,
+ .icon-link:focus {
+     background-color: #404bbf;
+ }
+
+ .icon-icon {
+     fill: #f4f4fd;
+ }
