@@ -389,6 +389,7 @@ flex-direction: column;
     display: block;
     width: 100%;
     height: auto;
+    transform: translateY(0%);
 }
 
 .portfolio-description {
@@ -491,6 +492,7 @@ flex-direction: column;
      margin-bottom: 16px;
      padding-bottom: 3px;
      padding-top: 0;
+    height: 100%;
  }
 
  .footer-list {
@@ -526,6 +528,7 @@ flex-direction: column;
  .footer-wrap {
 display: flex;
 align-items: baseline;
+margin-right: 120px;
 
  }
 
