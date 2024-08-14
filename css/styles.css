@@ -523,6 +523,12 @@ flex-direction: column;
      fill: #f4f4fd;
  }
 
+ .footer-wrap {
+display: flex;
+align-items: baseline;
+
+ }
+
  /* ======= ICONES =======*/
 
  .icon-list {
