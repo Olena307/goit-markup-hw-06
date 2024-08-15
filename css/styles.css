@@ -296,7 +296,6 @@ flex-direction: column;
 }
 .person-page :first-child {
     width: calc((100%-72px)/4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-info {
@@ -557,14 +556,14 @@ margin-right: 120px;
  .icon-item {
      width: 40px;
      height: 40px;
-    border-radius: 50%;
+    
  }
 
  .icon-link {
      width: 40px;
      height: 40px;
      background-color: #4d5ae5;
-     
+border-radius: 50%;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -580,5 +579,4 @@ margin-right: 120px;
 
  .icon-icon {
     fill: #f4f4fd;
-    border-radius: 50%;
  }
