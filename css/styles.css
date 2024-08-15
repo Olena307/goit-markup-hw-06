@@ -448,9 +448,6 @@ transform: translateY(0%);
 .page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    display: flex;
-    align-items: baseline;
-
 }
 
 .page-logo-footer {
@@ -557,14 +554,13 @@ transform: translateY(0%);
  .icon-item {
      width: 40px;
      height: 40px;
-    
  }
 
  .icon-link {
      width: 40px;
      height: 40px;
      background-color: #4d5ae5;
-border-radius: 50%;
+     border-radius: 50%;
      display: flex;
      align-items: center;
      justify-content: center;
