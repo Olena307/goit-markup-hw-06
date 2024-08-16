@@ -385,6 +385,9 @@ flex-direction: column;
     position: relative;
     overflow: hidden;
 }
+.portfolio-image-container:hover {
+    transform: translateY(0%);
+}
 
 .portfolio-image-container img {
     display: block;
@@ -424,7 +427,7 @@ flex-direction: column;
 }
 
 .info-portfolio:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(100%);
 }
 
