@@ -413,11 +413,8 @@ transform: translateY(100%);
     
 }
 
-.portfolio-description:hover::before {
+.portfolio-description:hover::before, .portfolio-description:hover::after {
     transform: translateY(100%);
-}
-.portfolio-description:hover::after {
-    transform: translateY(0%);
 }
 
 .info-portfolio {
