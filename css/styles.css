@@ -361,6 +361,7 @@ flex-direction: column;
     justify-content: space-evenly;
     column-gap: 24px;
     row-gap: 48px;
+    box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section-item-portfolio:hover {
@@ -394,8 +395,6 @@ flex-direction: column;
     width: 100%;
     height: auto; 
 }
-
-.portfolio-image-container:hover {transform: translateY(100%);}
 
 .portfolio-description {
     position: absolute;
@@ -476,7 +475,7 @@ flex-direction: column;
     color: #f4f4fd;
     width: 264px;
     margin-top: 16px;
-    display: ;
+
 }
 
 .page-logo-footer {
