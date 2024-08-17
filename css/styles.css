@@ -30,10 +30,6 @@ max-width: 1158px;
     display: block;
 }
 
-.img:hover::before,
-.img:hover::after {
-    transform: translateY(0%);}
-
 /* ======= HEADER STYLES ======= */
 
 .logo {
@@ -390,7 +386,7 @@ flex-direction: column;
     position: relative;
     overflow: hidden;
 }
-.portfolio-image-container:hover {
+.portfolio-image-container:hover::before, .portfolio-image-container:hover::after {
     transform: translateY(0%);
 }
 
