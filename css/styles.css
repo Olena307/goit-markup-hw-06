@@ -448,6 +448,10 @@ flex-direction: column;
 transform: translateY(100%);
 }
 
+.desc-caption-portfolio:hover::before, .desc-caption-portfolio:hover::after {
+transform: translateY(0%);
+}
+
 
 /* ======= FOOTER STYLES ======= */
 
