@@ -28,10 +28,14 @@ max-width: 1158px;
 
 .img {
     display: block;
-    
 }
 
+.img:hover::before,
+.img:hover::after {
+    transform: translateY(0%);}
+
 /* ======= HEADER STYLES ======= */
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
