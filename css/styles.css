@@ -419,6 +419,9 @@ flex-direction: column;
         .desc-caption-portfolio:hover::after {
             transform: translateY(0%);
         }
+.info-portfolio:hover .portfolio-description {
+                    transform: translateY(0);
+                }
 
 .info-portfolio {
     background-color: #fff;
