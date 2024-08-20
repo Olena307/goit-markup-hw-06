@@ -534,6 +534,7 @@ transform: translateY(0%);
 .footer-form {
     display: flex;
     gap: 24px;
+    color: #ffffff;
 }
 
 .subscribe-text {
