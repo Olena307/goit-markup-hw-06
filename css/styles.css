@@ -582,7 +582,7 @@ transform: translateY(0%);
 .footer-btn:focus {
     background-color: #31d0aa;
 }
-.subscribe-email {
+.modal-subscribe {
 color: #ffffff;
 }
 
