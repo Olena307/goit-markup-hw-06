@@ -332,6 +332,11 @@ flex-direction: column;
     color: #434455;
 }
 
+.icon-icon {
+fill: #f4f4fd;
+}
+
+
 /* ======= PORTFOLIO STYLES ======= */
 
 .page-portfolio {
