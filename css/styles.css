@@ -356,9 +356,14 @@ button {
      background-position: center center;
      background-size: cover;
      color: #fff;
-
+    background-image: linear-gradient(to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/1people-office.jpg);
  }
+
 /* ======= TEAM STYLES ======= */
+
 .page-hero {
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-bg.jpg);
