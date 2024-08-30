@@ -376,9 +376,13 @@ button {
     padding: 72px 0;
     margin: 0 auto;
     margin-bottom: 96px;
+    background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/1people-office.jpg);
 }
 
-.button {
+.order-service-button {
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
@@ -445,7 +449,6 @@ button {
     .page-hero {
         max-width: 1440px;
         padding: 188px 0;
-
         margin-bottom: 48px;
 
     }
@@ -587,7 +590,7 @@ button {
     margin-top: 8px;
 }
 
-.team-link-icon {
+.icon-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -639,7 +642,7 @@ button {
 
 
 @media screen and (min-width:768px) {
-    .team-list {
+    .person-page {
         margin: 0 auto;
         row-gap: 64px;
         column-gap: 24px;
@@ -652,7 +655,7 @@ button {
 
 @media screen and (min-width:1158px) {
 
-    .team-list {
+    .person-page {
         flex-wrap: nowrap;
         gap: 24px;
         margin-top: 72px;
@@ -666,7 +669,6 @@ button {
         gap: 24px;
         margin-top: 8px;
     }
-
 }
 
 /*--======= OUR PORTFOLIO =======--*/
@@ -692,13 +694,11 @@ button {
 }
 
 .desc-caption-portfolio {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
 .button {
