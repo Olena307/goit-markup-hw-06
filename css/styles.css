@@ -21,6 +21,19 @@ ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+}
+
+li {
+    display: list-item;
+        text-align: -webkit-match-parent;
+        unicode-bidi: isolate;
 }
 
 h1,
@@ -574,7 +587,7 @@ button {
 }
 
 .person-page {
-    display: block;
+    display: flex;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     align-items: center;
@@ -816,22 +829,27 @@ button {
     justify-content: center;
 
 }
+.logo .header-logo .footer-logo-part {
+    color: #f4f4fd;
+}
 
 .footer-text-soc {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
     margin-bottom: 16px;
     text-align: center;
+    display: block;
+        color: #f4f4fd;
+        max-width: 264px;
 
 }
 
 .icon-list {
     height: 40px;
     width: 40px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 
@@ -840,35 +858,27 @@ button {
 .footer-item {
     width: 40px;
     height: 40px;
-}
-
-.fcontainer-soc{
     display: flex;
     flex-direction: row;
-    gap: 16px;
-
+   
 }
 
-.footer-logo-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-    line-height: 1.17;
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.footer-logo {
-    text-align: center;
-}
+.container-soc {
+                display: flex;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
+            margin-bottom: 16px;
+            margin-left: 156 px;
+            flex-direction: row;
+        }
 
 .footer-container {
-    display: flex;
+    display: block;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -882,6 +892,7 @@ button {
 
 .footer-soc {
     margin-top: 72px;
+    display: block;
 }
 
 .icon {
@@ -895,6 +906,7 @@ button {
 
 .footer-subscribe{
     margin-top: 72px;
+    display: block;
 }
 
 .input-footer::placeholder {
@@ -976,15 +988,17 @@ button {
 
     .footer-container {
         display: flex;
-
         flex-wrap: wrap;
-
         flex-direction: row;
-
     }
 
     .icon-send{
         margin-left: 0px;
     }
 
+}
+.backdrop.is-open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
 }
